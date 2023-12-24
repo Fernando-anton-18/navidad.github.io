@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Arbol</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.jpg">
+  <style>
+      body{
+          background: url('gif.gif');
+          background-repeat: no-repeat;
+          background-size: 100% 100vh;
+      }
+      div{
+         width: 100%;
+         height: 95vh;
+         display: flex;
+         justify-content: center;
+         align-items: flex-end;
+      }
+      address{
+         filter: blur(1px);
+         color: white;
+      }
+      @keyframes typing {
+         from { width: 0; }
+         to { width: 100%; }
+      }
+      #author::after {
+         content: "|";
+         animation: typing 1s infinite;
+      }
+  </style>
+</head>
+<body>
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <div>
+       <address id="author"></address>
+    </div>
+    <script src="main.js" type="text/javascript"></script>
+    <!--  -->
+    <!--  -->
+    <!--  -->
+</body>
+</html>
